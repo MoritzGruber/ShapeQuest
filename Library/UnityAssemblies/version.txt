@@ -1,6 +1,14 @@
 5.3.5f1:2.2.0.0
 StandaloneWindows
+<<<<<<< HEAD
+C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll
+C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll
+C:/Program Files/Unity/Editor/Data\Managed/Mono.Cecil.dll
+=======
 C:/Program Files/Unity5_3_5/Editor/Data/Managed/UnityEngine.dll
 C:/Program Files/Unity5_3_5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
 C:/Program Files/Unity5_3_5/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
 C:/Program Files/Unity5_3_5/Editor/Data/Managed/UnityEditor.dll
+>>>>>>> 3484cef459e1788b82c42875399d8a624aa2b5f7
