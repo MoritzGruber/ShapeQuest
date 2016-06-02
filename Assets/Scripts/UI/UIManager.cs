@@ -29,4 +29,15 @@ public class UIManager : MonoBehaviour {
         serverPort  = serverPortInput.text;
 
     }
+
+    public void JoinButtonClicked()
+    {
+
+    }
+
+    public void HostButtonClicked()
+    {
+
+    }
+
 }
