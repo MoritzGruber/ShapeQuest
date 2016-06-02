@@ -17,12 +17,12 @@ public class ButtonPlatformController : MonoBehaviour {
     void Start ()
     {
         col = GetComponent<Collider>();
+        col.isTrigger = true;
 	}
 	
 
     void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject);
         StartCoroutine(MoveOverSeconds(Platform,PlatformTargetPos,PlatformMovementTime));
     }
 
