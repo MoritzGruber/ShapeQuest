@@ -32,10 +32,10 @@ public class ButtonPlatformController : MonoBehaviour {
         Vector3 startingPos = objectToMove.transform.position;
         while (elapsedTime < seconds)
         {
-            transform.position = Vector3.Lerp(startingPos, end, (elapsedTime / seconds));
+            objectToMove.transform.position = Vector3.Lerp(startingPos, end, (elapsedTime / seconds));
             elapsedTime += Time.deltaTime;
             yield return new WaitForEndOfFrame();
         }
-        transform.position = end;
+        objectToMove.transform.position = end;
     }
 }
