@@ -5,6 +5,8 @@ using System.Collections;
 public class playerController : NetworkBehaviour
 {
 
+    public GameObject body;
+
     // Use this for initialization
     void Start()
     {

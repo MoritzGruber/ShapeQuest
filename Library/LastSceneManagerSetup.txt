@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
+- path: Assets/Scenes/TechBaseLevel.unity
+=======
 - path: Assets/Scenes/UItestScene.unity
+>>>>>>> 03e2866b3a1e284f27bd82fb8ad7118ddd89ceee
   isLoaded: 1
   isActive: 1
